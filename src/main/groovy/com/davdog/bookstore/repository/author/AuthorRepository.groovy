@@ -1,4 +1,4 @@
-package com.davdog.bookstore.repository
+package com.davdog.bookstore.repository.author
 
 import org.springframework.data.repository.CrudRepository
 

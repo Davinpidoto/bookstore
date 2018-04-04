@@ -1,13 +1,14 @@
-package com.davdog.bookstore.repository
+package com.davdog.bookstore.repository.book
 
 import javax.persistence.Entity
 import javax.persistence.Id
 import javax.persistence.Table
 
 @Entity
-@Table(name = "authors")
-class Author {
+@Table(name ="books")
+class Book {
+
   @Id
   Integer id
-  String name
+  String title
 }
