@@ -10,6 +10,8 @@
 .settings
 .springBeans
 .sts4-cache
+out
+flyway.conf
 
 ### IntelliJ IDEA ###
 .idea
